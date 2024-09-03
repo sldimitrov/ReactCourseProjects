@@ -1,0 +1,176 @@
+@media only screen and (max-width: 639px) { 
+  .info-container {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content: space-between;
+    top: 18.5vh;
+    left: 5vw;
+  }
+
+  .current-temperature {
+    flex: 1;
+    font-size: 64px;
+    margin: 0px;
+  }
+
+  #additional-info {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 160px;
+    padding-left: 5px;
+    padding-top: 2px;
+  }
+
+  #city {
+    max-height: 195px;
+    font-size: 30px;
+  }
+
+  #date {
+    margin: 0px;
+    font-size: 10px;
+    font-weight: 400;
+  }
+
+  #cloud-img {
+    height: 45px;
+    width: 45px;
+    padding: 10px 0px 0px 5px;
+  }
+}
+
+@media only screen and (min-width: 640px)
+and (max-width: 1149px) {
+  .info-container {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content: space-between;
+    top: 24vh;
+    left: 4vw;
+  }
+
+  .current-temperature {
+    flex: 1;
+    font-weight: 400;
+    font-size: 120px;
+    text-shadow: black 3px 3px 25px;
+    margin: 0px;
+  }
+
+  #additional-info {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 260px;
+    padding-left: 5px;
+    padding-top: 15px;
+  }
+
+  #city {
+    max-height: 195px;
+    font-size: 48px;
+
+  }
+
+  #date {
+    margin: 0px;
+    font-size: 16px;
+  }
+
+  #cloud-img {
+    height: 55px;
+    width: 55px;
+    padding: 20px 0px 0px 10px;
+  }
+} 
+
+@media only screen and (min-width: 1150px) {
+  .info-container {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content: space-between;
+    top: 68vh;
+    left: 7vw;
+  }
+  
+  .current-temperature {
+    flex: 1;
+    font-size: 143px;
+    font-weight: 400px;
+    margin: 0px;
+  }
+  
+  #additional-info {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 295px;
+    padding-left: 5px;
+    padding-top: 10px;
+  }
+  
+  #city {
+    max-height: 195px;
+    max-width: 330px;
+    font-weight: 400px;
+    font-size: 60px;
+  }
+  
+  #date {
+    margin: 0px;
+    font-size: 18px;
+  }
+  
+  #cloud-img {
+    height: 75px;
+    width: 75px;
+    padding: 20px 0px 0px 16px;
+  }
+}
+
+@media only screen and (min-width: 1800px) {
+  .info-container {
+    top: 69vh;
+    left: 9vw;
+  }
+  
+  .current-temperature {
+    font-size: 156px;
+    font-weight: 400px;
+  }
+  
+  #additional-info {
+    max-width: 270px;
+    padding-left: 5px;
+    padding-top: 10px;
+  }
+  
+  #city {
+    max-height: 195px;
+    font-weight: 400px;
+    font-size: 70px;
+  }
+  
+  #date {
+    font-size: 21px;
+  }
+  
+  #cloud-img {
+    height: 80px;
+    width: 80px;
+    padding: 20px 0px 0px 16px;
+  }
+}

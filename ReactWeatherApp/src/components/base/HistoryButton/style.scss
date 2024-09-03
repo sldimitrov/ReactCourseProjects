@@ -1,0 +1,39 @@
+#history-button {
+  padding: 0px;
+  border: none;
+  background: none;
+}
+
+@media only screen and (max-width: 639px) { 
+  #h-image {
+    width: 12px;
+    height: 11px;
+  }
+}
+
+@media only screen and (min-width: 640px)
+and (max-width: 1149px) {
+  #h-image {
+    width: 22px;
+    height: 21px;
+  }
+} 
+
+@media only screen and (min-width: 1150px) {
+  #history-button {
+    padding-bottom: 2px;
+    padding-right: 10px;
+  }
+  
+  #h-image {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media only screen and (min-width: 1800px) {
+  #h-image {
+    width: 34px;
+    height: 34px;
+  }
+}
