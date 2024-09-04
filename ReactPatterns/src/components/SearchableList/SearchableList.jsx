@@ -17,7 +17,7 @@ export default function SearchableList({ items }) {
       <input type="search" placeholder="Search" onChange={handleChange} />
       <ul>
         {searchResult.map((item, index) => (
-          <li key={index}>{item.toString()}</li>
+          <li key={index}>{children(item)}</li>
         ))}
       </ul>
     </div>
