@@ -22,6 +22,7 @@ export default function Accordion({ children, className }) {
 
   function toggleItem(id) {
     setItemId((prevId) => (prevId === id ? null : id));
+    console.log(openItemId);
   }
 
   const contextValue = {
